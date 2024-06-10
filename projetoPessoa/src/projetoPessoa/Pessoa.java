@@ -8,6 +8,8 @@ public class Pessoa {
 	
 	private int CPF;
 	
+	private String endereco;
+	
 	public String getBirthDate() {
 		return birthDate;
 	}
