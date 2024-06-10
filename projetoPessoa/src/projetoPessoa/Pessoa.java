@@ -6,6 +6,16 @@ public class Pessoa {
 	
 	private String sobreNome;
 	
+	private int CPF;
+	
+	public int getCPF() {
+		return CPF;
+	}
+
+	public void setCPF(int cPF) {
+		CPF = cPF;
+	}
+
 	public String getNome() {
 		return Nome;
 	}
