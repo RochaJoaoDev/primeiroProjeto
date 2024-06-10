@@ -8,6 +8,16 @@ public class Pessoa {
 	
 	private int CPF;
 	
+	public String getBirthDate() {
+		return birthDate;
+	}
+
+	public void setBirthDate(String birthDate) {
+		this.birthDate = birthDate;
+	}
+
+	private String birthDate;
+	
 	public int getCPF() {
 		return CPF;
 	}
